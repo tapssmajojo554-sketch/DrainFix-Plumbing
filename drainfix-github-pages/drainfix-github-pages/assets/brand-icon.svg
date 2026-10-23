@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 140" fill="none">
+  <!-- Drain Hole in Ground -->
+  <ellipse cx="132" cy="124" rx="14" ry="5.5" fill="#020617" stroke="#64748B" stroke-width="2"/>
+  <ellipse cx="132" cy="124" rx="9" ry="3" fill="#38BDF8" opacity="0.85"/>
+
+  <!-- High-Pressure Jetter Machine (Left) -->
+  <g id="jetter-cart">
+    <!-- Frame / Handle -->
+    <path d="M18 58 L18 28 Q18 20 28 20 L36 20 Q44 20 44 28 L44 58" stroke="#0F172A" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M18 58 L18 28 Q18 20 28 20 L36 20 Q44 20 44 28 L44 58" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Chassis Body -->
+    <rect x="14" y="58" width="34" height="46" rx="4" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <!-- Wheels -->
+    <circle cx="20" cy="110" r="9" fill="#0F172A" stroke="#64748B" stroke-width="2.5"/>
+    <circle cx="20" cy="110" r="4" fill="#94A3B8"/>
+    <!-- Red Jetting Hose Reel Drum -->
+    <circle cx="31" cy="80" r="18" fill="#DC2626" stroke="#991B1B" stroke-width="2.5"/>
+    <circle cx="31" cy="80" r="8" fill="#0F172A" stroke="#F87171" stroke-width="1.5"/>
+    <circle cx="31" cy="80" r="3" fill="#E2E8F0"/>
+  </g>
+
+  <!-- Kneeling Technician ("The Small Guy") -->
+  <g id="technician">
+    <!-- Left Boot (Flat on ground) -->
+    <path d="M92 110 C98 110 110 112 110 118 C110 122 92 122 82 122 C76 122 76 114 84 111 Z" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <!-- Right Boot (Kneeling heel up) -->
+    <path d="M64 102 C64 102 56 112 50 118 C48 121 58 122 66 122 Z" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+
+    <!-- Work Trousers (Slate Grey) -->
+    <!-- Back Leg (Kneeling) -->
+    <path d="M76 80 L60 102 L74 114 L88 90 Z" fill="#475569"/>
+    <!-- Front Leg (Bent Forward) -->
+    <path d="M76 80 L94 86 L100 114 L88 116 L82 90 Z" fill="#64748B" stroke="#334155" stroke-width="1"/>
+
+    <!-- Red Work Jacket / Sweatshirt -->
+    <path d="M64 46 C68 40 90 40 98 46 L106 68 C100 78 86 84 76 82 L58 74 L50 58 Z" fill="#DC2626" stroke="#991B1B" stroke-width="1.5"/>
+    <!-- Chest Crest/Badge -->
+    <circle cx="90" cy="56" r="3.5" fill="#CBD5E1"/>
+
+    <!-- Arms & Hands guiding hose -->
+    <path d="M94 50 L110 66 L98 88 L88 82 L98 66 Z" fill="#DC2626" stroke="#991B1B" stroke-width="1"/>
+    <!-- Hands (Skin tone) -->
+    <circle cx="94" cy="86" r="5.5" fill="#F6AD55"/>
+
+    <!-- Neck & Face (Skin tone) -->
+    <path d="M82 34 L90 34 L92 44 L82 44 Z" fill="#F6AD55"/>
+    <circle cx="88" cy="30" r="8.5" fill="#F6AD55"/>
+    
+    <!-- Black Baseball Cap with Forward Visor -->
+    <path d="M78 28 C78 20 94 20 98 26 L110 28 C110 30 102 32 96 32 Z" fill="#0F172A"/>
+  </g>
+
+  <!-- Jetting Hose feeding into ground drain hole -->
+  <path d="M31 80 Q58 96 94 86 T132 122" fill="none" stroke="#0F172A" stroke-width="4.5" stroke-linecap="round"/>
+</svg>
